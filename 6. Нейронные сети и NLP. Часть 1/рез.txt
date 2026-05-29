@@ -1,0 +1,22 @@
+# Определение гиперпараметров
+EMBEDDING_DIM = 300
+HIDDEN_DIM = 128
+OUTPUT_DIM = 1
+N_EPOCHS = 25
+BATCH = 16
+
+# Определение максимальной длины последовательности
+MAX_SEQUENCE_LENGTH = 50
+RNN - Test Accuracy: 0.844774814167031, F1-Score: 0.9045698924731183, AUC-ROC: 0.841896878493287
+
+# Определение гиперпараметров
+EMBEDDING_DIM = 300
+HIDDEN_DIM = 128
+OUTPUT_DIM = 1
+N_EPOCHS = 25
+BATCH = 16 #best
+
+
+
+optimizer = AdamW(learning_rate=0.001,  # Настройка скорости обучения
+                epsilon=1e-7)  # Маленькое число для предотвращения деления на 0
